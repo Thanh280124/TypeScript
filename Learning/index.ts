@@ -1,19 +1,28 @@
-interface Vehicle {
-    start(): void;
-    stop(): void;
+import axios,{AxiosResponse} from "axios";
+
+interface Todo{
+    userId: number;
+    id: number;
+    title: string;
+    completed: boolean;
 }
 
-
-class Car implements Vehicle {
-    start() {
-        console.log('Car started');
+const fetchDatas = async () => {
+    try {
+    const res: AxiosResponse<Todo> = await axios.get("https://jsonplaceholder.typicode.com/todos/1");
+        console.log(res.data);      
+} catch (error: any) {
+    if(axios.isAxiosError(error)){
+        console.error(error.message);
+        if(error.response){
+            console.log(error.response.data);
+            console.log(error.response.status);
+        }
+    }else{
+        console.error(error.message);
     }
-
-    stop() {
-        console.log('Car stopped');
+        
     }
 }
 
-const myCar = new Car();
-myCar.start();
-myCar.stop();
+fetchDatas();
