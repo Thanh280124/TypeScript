@@ -1,8 +1,10 @@
-
+import User from "./components/User"
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <User name='Thanh' age={21} isStudent ={true}/>
+    </>
   )
 }
 
