@@ -10,8 +10,13 @@
 // import TodoList from "./components/useState Types challenge/TodoList"
 // import Form from "./components/useRef, Forms, Events Types Challenges/Form"
 // import FocusInput from "./components/useRef, Forms, Events Types Challenges/FocusInput"
-import ContacForm from "./components/useRef, Forms, Events Types Challenges/ContacForm"
-import EventHandler from "./components/useRef, Forms, Events Types Challenges/EventHandler"
+// import ContacForm from "./components/useRef, Forms, Events Types Challenges/ContacForm"
+// import EventHandler from "./components/useRef, Forms, Events Types Challenges/EventHandler"
+// import Counter from "./context/Counter"
+// import CounterReducer2 from "./components/userReducer Challenge/CounterReducer2"
+import MyComponent from "./components/useEffect Type/MyComponent"
+import UserList from "./components/useEffect Type/UserList"
+import User from "./components/User"
 const App = () => {
   // const user : Info = {
   //   id: 1,
@@ -46,8 +51,12 @@ const App = () => {
    <Form/>
     <FocusInput/>
      <ContacForm/>
-    */}
      <EventHandler/>
+     <Counter/>
+     <CounterReducer2/>
+     <MyComponent/>
+    */}
+    <UserList/>
     </>
   )
 }
