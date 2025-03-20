@@ -14,9 +14,11 @@
 // import EventHandler from "./components/useRef, Forms, Events Types Challenges/EventHandler"
 // import Counter from "./context/Counter"
 // import CounterReducer2 from "./components/userReducer Challenge/CounterReducer2"
-import MyComponent from "./components/useEffect Type/MyComponent"
-import UserList from "./components/useEffect Type/UserList"
-import User from "./components/User"
+// import MyComponent from "./components/useEffect Type/MyComponent"
+// import UserList from "./components/useEffect Type/UserList"
+// import User from "./components/User"
+import Button from "./components/ui/button"
+
 const App = () => {
   // const user : Info = {
   //   id: 1,
@@ -55,8 +57,10 @@ const App = () => {
      <Counter/>
      <CounterReducer2/>
      <MyComponent/>
+      <UserList/>
+      <Button>Learn more</Button>
     */}
-    <UserList/>
+    <Button>Learn more</Button>
     </>
   )
 }
