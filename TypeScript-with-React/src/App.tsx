@@ -17,7 +17,9 @@
 // import MyComponent from "./components/useEffect Type/MyComponent"
 // import UserList from "./components/useEffect Type/UserList"
 // import User from "./components/User"
-import Button from "./components/ui/button"
+// import Button from "./components/ui/button"
+
+import Form from "./components/react-form-hooks/Form"
 
 const App = () => {
   // const user : Info = {
@@ -60,7 +62,7 @@ const App = () => {
       <UserList/>
       <Button>Learn more</Button>
     */}
-    <Button>Learn more</Button>
+    <Form/>
     </>
   )
 }
