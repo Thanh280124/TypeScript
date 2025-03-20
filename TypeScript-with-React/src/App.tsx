@@ -20,7 +20,7 @@
 // import Button from "./components/ui/button"
 
 import Form from "./components/react-form-hooks/Form"
-
+import AdvanceForm from "./components/react-form-hooks/AdvanceForm"
 const App = () => {
   // const user : Info = {
   //   id: 1,
@@ -61,8 +61,9 @@ const App = () => {
      <MyComponent/>
       <UserList/>
       <Button>Learn more</Button>
+      <Form/>
     */}
-    <Form/>
+    <AdvanceForm/>
     </>
   )
 }
